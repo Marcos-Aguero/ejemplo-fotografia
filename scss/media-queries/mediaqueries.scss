@@ -1,0 +1,95 @@
+@media screen and (max-width: 860px) {
+    header .logo a img {
+        width: 40px;
+    }
+
+    .portada .portada-in {
+        .port_der{
+            display: none;
+        }
+        .port_izq {
+            width: 85%;
+            h1 {
+                font-size: 43px;
+                margin-bottom: -278px;
+            }
+        }
+    }
+    .carousel-inner{
+        video {
+            height: 100vh;
+        }
+    }
+
+    .presentacion .contenedor {
+        .vacio {
+            display: none;
+        }
+        .explicacion {
+            width: 100%;
+            height: 100vh;
+            .titulo {
+                display: flex;
+                justify-content: center;
+                h2 {
+                    font-size: 30px;
+                    padding-bottom: 2.5rem;
+                }
+            }
+            p {
+                padding: 0 25px;
+            }
+        }
+    }
+    .servicios .fila {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .descripcion {
+            h3 {
+                font-size: 40px;
+                margin-top: 20px;
+            }
+            br {
+                display: none;
+            }
+            a {
+                margin-bottom: 20px;
+            }
+        }
+        .ilustracion {
+            width: 100%;
+        }
+    }
+
+    #fila-uno {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #testimonios {
+        h2 {
+            font-size: 40px;
+            padding-top: 20px;
+        }
+    }
+
+    .contacto .cont-contacto .formBx form {
+        width: 161%;
+    }
+    footer .final{
+        display: flex;
+        flex-direction: column;
+        .logo-final {
+            display: none;
+        }
+        .texto-final {
+            width: 100%;
+            p {
+                font-size: 11px;
+                padding: 10px 0;
+            }
+        }
+    }
+}

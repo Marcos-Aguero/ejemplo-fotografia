@@ -1,0 +1,44 @@
+.final {
+    height: 125px;
+    display: flex;
+    align-items: center;
+    background: #000;
+    .logo-final {
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 12%;
+        }
+    }
+    .texto-final {
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            color: #fff;
+            margin-bottom: 0;
+        }
+    }
+    .redes {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h6 {
+            color: #fff;
+            margin: 5px;
+        }
+        .redes-dos {
+            display: flex;
+            img {
+            width: 30px;
+            margin: 8px;
+        }
+        }
+        
+    }
+}

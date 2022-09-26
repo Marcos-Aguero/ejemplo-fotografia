@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600&display=swap');
+
+
+@import './base/base.scss';
+@import './navbar/animations';
+@import './navbar/header';
+@import './navbar/media';
+@import './secciones/portada.scss';
+@import './secciones/presentacion.scss';
+@import './secciones/servicios.scss';
+@import './secciones/swiper.scss';
+@import './secciones/contacto.scss';
+@import './secciones/footer.scss';
+@import './media-queries/mediaqueries.scss';
+

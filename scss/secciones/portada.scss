@@ -1,0 +1,35 @@
+
+.portada-in {
+    margin-top: -63rem;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
+    display: flex;
+    .port_der{
+        width: 50%;
+    }
+    .port_izq{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-family: 'montserrat', sans-serif;
+            text-transform: uppercase;
+            text-shadow: 11px 11px 11px rgba(10, 10, 10, 0.829);
+            font-size: calc(7rem + 1.5vw);
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            z-index: 4;
+            margin-bottom: 4rem;
+            margin-left: 4rem;
+
+        }
+    }
+    
+}

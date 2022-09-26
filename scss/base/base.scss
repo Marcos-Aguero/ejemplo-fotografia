@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+
+    p {
+        margin: 1rem;
+    }
+}
+
+.loguito {
+    margin-top: 1.5rem;
+    margin: 1rem;
+    width: 60px;
+}

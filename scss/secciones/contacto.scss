@@ -1,0 +1,122 @@
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../img/paisajes/abejapaisaje.jpg");
+    .cont-contacto{
+        position: relative;
+        width: 100%;
+        max-width: 700px;
+        margin: 20px;
+        height: 600px;
+        background: #000000d2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        .formBx {
+            width: 73%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            form {
+                position: relative;
+                width: 100%;
+                padding: 0;
+                h2 {
+                    color: #fff;
+                    font-weight: 500;
+                    font-size: 2em;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    margin-bottom: 40px;
+                }
+                .inputBox {
+                    position: relative;
+                    margin-bottom: 40px;
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+                    input, textarea {
+                        position: relative;
+                        background: transparent;
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                        color: #fff;
+                        padding-bottom: 10px;
+                        font-size: 16px;
+                        letter-spacing: 1px;
+                        font-weight: 300;
+                        border-bottom: 2px solid rgba(255,255, 255,0.5);
+                        resize: none;
+                    }
+                    textarea {
+                        height: 100px;
+                    }
+                    .submit {
+                        background: #fff;
+                        padding: 8px 20px;
+                        margin-top: -10px;
+                        width: 120px;
+                        cursor: pointer;
+                        background: #0a534a;
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 400;
+                        border: none;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        &:focus {
+                            background: #23996c ;
+                            color: #111;
+                        }
+                    }
+                    span {
+                        position: absolute;
+                        left: 0;
+                        font-size: 16px;
+                        font-weight: 300;
+                        display: inline-block;
+                        pointer-events: none;
+                        letter-spacing: 1px;
+                        color: rgba(255,255, 255,0.5);
+                        transition: all 0.2s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contacto .cont-contacto .formBx form .inputBox input:focus ~ span,
+.contacto .cont-contacto .formBx form .inputBox textarea:focus ~ span,
+.contacto .cont-contacto .formBx form .inputBox input:valid ~ span,
+.contacto .cont-contacto .formBx form .inputBox textarea:valid ~ span {
+    transform: translateY(-24px);
+    color: #1b9e8f;
+    font-size: 18px;
+}
+
+.contacto .cont-contacto .formBx form .inputBox input:focus,
+.contacto .cont-contacto .formBx form .inputBox textarea:focus,
+.contacto .cont-contacto .formBx form .inputBox input:valid,
+.contacto .cont-contacto .formBx form .inputBox textarea:valid {
+    border-bottom-color: #fff;
+}
+
+
+@media (max-width: 991px) {
+
+    .cont-contacto .formBx {
+        width: 100%;
+        padding: 0 50px;
+        form {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            padding: 0;
+        }
+    } 
+}
